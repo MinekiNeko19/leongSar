@@ -29,8 +29,6 @@ int main() {
 
   return 0;
 
-  //vscode is giving me where the error is :> i appreciate it ty
+  //vscode is giving me where sus things are :> i appreciate it ty
   // the terminal does not tell me where code is wrong
-
-  // when a certain part of code is incorrect, it will not compile and will run the old one
 }
