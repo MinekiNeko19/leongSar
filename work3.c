@@ -29,7 +29,8 @@ int problem5() {
         found = 0;
         for (x = 1; x < 21; x++) {
             if (ans % x != 0) {
-                found = 0;
+                found = 1;
+                x = 21;
             }
         }
     }
