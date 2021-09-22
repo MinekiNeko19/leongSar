@@ -28,11 +28,12 @@ int problem5() {
     for (ans=2520; found != 0; ans++) {
         found = 0;
         for (x = 1; x < 21; x++) {
-            if (ans % x != 0) {
+            if ((ans % x) != 0) {
                 found = 1;
                 x = 21;
             }
         }
     }
-    return ans;
+    // it adds an extra 1 before terminating?
+    return ans-1;
 }
